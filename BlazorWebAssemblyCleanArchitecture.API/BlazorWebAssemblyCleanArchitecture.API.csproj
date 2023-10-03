@@ -14,4 +14,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorWebAssemblyCleanArchitecture.Application\BlazorWebAssemblyCleanArchitecture.Application.csproj" />
+    <ProjectReference Include="..\BlazorWebAssemblyCleanArchitecture.Persistence\BlazorWebAssemblyCleanArchitecture.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
