@@ -12,4 +12,8 @@
     <PackageReference Include="System.Net.Http.Json" Version="7.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorWebAssemblyCleanArchitecture.Application\BlazorWebAssemblyCleanArchitecture.Application.csproj" />
+  </ItemGroup>
+
 </Project>
